@@ -16,17 +16,27 @@ const Navbar = () => {
     setOpen((prev) => !prev);
   }
 
+
   const content = (
     <div 
-      className="lg:hidden block  absolute top-0 w-full left-0 right-0 bg-[#181715] transition"
+      className={`lg:hidden block  absolute top-0 w-full left-0 right-0 bg-[#181715] transform transition-all duration-500 ${open ? 'translate-x-0' : '-translate-x-full'}`}
     >
        <div className="mx-auto text-center h-[calc(100vh-7rem)]">
-        <button 
-          className="mt-12 text-3xl"
+       <div className="flex justify-between items-center px-10 mt-8">
+        <div className="flex gap-3 items-center">
+        <img 
+            src="https://i.postimg.cc/htyhZ9yd/lg.png" alt="logo" 
+            width={70}
+          />
+          <h2 className="font-bold">Daisy Knight Dog Park</h2>
+        </div>
+         <button 
+          className="text-3xl"
           onClick={handleClick}
         >
             <IoClose />
           </button>
+       </div>
         <ul className="text-center text-xl p-20">
           <Link 
             href="/"
@@ -74,14 +84,14 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="relative px-12 lg:px-40 xl:px-40 2xl:px-40 p-10 ">
+    <nav className="relative px-12 lg:px-24 xl:px-24 2xl:px-24 p-8 ">
       <div className="flex items-center justify-between text-slate-200">
         <section className="flex items-center gap-x-3 font-bold text-sm lg:text-sm xl:text-2xl 2xl:text-2xl">
           <img 
             src="https://i.postimg.cc/htyhZ9yd/lg.png" alt="logo" 
             width={70}
           />
-          <h1>Daisy Knight Dog Park</h1>
+          <h1 className="font-bold text-[15px] lg:text-[15px] xl:text-xl 2xl:text-xl ">Daisy Knight Dog Park</h1>
         </section>
           <ul className="lg:flex xl:flex 2xl:flex hidden gap-x-5 font-bold uppercase">
             <li>
