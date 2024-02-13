@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
   const content = (
-    <div 
+    <section 
       className={`lg:hidden block  absolute top-0 w-full left-0 right-0 bg-[#181715] transform transition-all duration-500 ${open ? 'translate-x-0' : '-translate-x-full'}`}
     >
        <div className="mx-auto text-center h-[calc(100vh-7rem)]">
@@ -37,7 +37,7 @@ const Navbar = () => {
             <IoClose />
           </button>
        </div>
-        <ul className="text-center text-xl p-20">
+        <ul className="text-center text-xl p-20 uppercase font-bold">
           <Link 
             href="/"
             onClick={() => window.location.reload()}
@@ -80,7 +80,7 @@ const Navbar = () => {
           </Link>
         </ul>
        </div>
-    </div>
+    </section>
   );
 
   return (
@@ -90,32 +90,33 @@ const Navbar = () => {
           <img 
             src="https://i.postimg.cc/htyhZ9yd/lg.png" alt="logo" 
             width={50}
+            className="w-12 lg:w-14 xl:w-14 2xl:w-16"
           />
-          <h1 className="font-bold text-[15px] lg:text-[20px] xl:text-xl 2xl:text-xl ">Daisy Knight Dog Park</h1>
+          <h1 className="font-bold text-[15px] lg:text-[20px] xl:text-xl 2xl:text-2xl">Daisy Knight Dog Park</h1>
         </section>
-          <ul className="lg:flex xl:flex 2xl:flex hidden gap-x-5 font-bold uppercase">
+          <ul className="text-[15px] lg:text-[15px] xl:text-[16px] 2xl:text-lg lg:flex xl:flex 2xl:flex hidden gap-x-5 font-bold uppercase">
             <li>
-              <Link className="py-2 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300 hover:duration-200 hover:ease-in-out" href="/">
+              <Link className="py-1 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300 hover:duration-200 hover:ease-in-out" href="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="py-2 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300  hover:duration-200 hover:ease-in-out" href="/about">
+              <Link className="py-1 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300  hover:duration-200 hover:ease-in-out" href="/about">
                 About Us
               </Link>
             </li>
             <li>
-              <Link className="py-2 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300  hover:duration-200 hover:ease-in-out" href="/donate">
+              <Link className="py-1 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300  hover:duration-200 hover:ease-in-out" href="/donate">
                 Donate
               </Link>
             </li>
             <li>
-              <Link className="py-2 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300  hover:duration-200 hover:ease-in-out" href="/volunteer">
+              <Link className="py-1 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300  hover:duration-200 hover:ease-in-out" href="/volunteer">
                 Volunteer
               </Link>
             </li>
             <li>
-              <Link className="py-2 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300 hover:duration-200 hover:ease-in-out" href="/contact">
+              <Link className="py-1 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300 hover:duration-200 hover:ease-in-out" href="/contact">
                 Contact
               </Link>
             </li>

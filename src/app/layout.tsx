@@ -11,7 +11,7 @@ export default function RootLayout({
     <html lang="en">
       <body suppressHydrationWarning={true}>
         <Nabvar />
-       <section className="container mx-auto">
+       <section>
                 {children}
        </section>
       </body>
