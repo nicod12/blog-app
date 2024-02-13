@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="flex gap-3 items-center">
         <img 
             src="https://i.postimg.cc/htyhZ9yd/lg.png" alt="logo" 
-            width={70}
+            width={50}
           />
           <h2 className="font-bold">Daisy Knight Dog Park</h2>
         </div>
@@ -89,9 +89,9 @@ const Navbar = () => {
         <section className="flex items-center gap-x-3 font-bold text-sm lg:text-sm xl:text-2xl 2xl:text-2xl">
           <img 
             src="https://i.postimg.cc/htyhZ9yd/lg.png" alt="logo" 
-            width={70}
+            width={50}
           />
-          <h1 className="font-bold text-[15px] lg:text-[15px] xl:text-xl 2xl:text-xl ">Daisy Knight Dog Park</h1>
+          <h1 className="font-bold text-[15px] lg:text-[20px] xl:text-xl 2xl:text-xl ">Daisy Knight Dog Park</h1>
         </section>
           <ul className="lg:flex xl:flex 2xl:flex hidden gap-x-5 font-bold uppercase">
             <li>
