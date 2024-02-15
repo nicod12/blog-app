@@ -1,7 +1,9 @@
 
 export default function AboutPage() {
     return(
-        <h1>AboutPage</h1>
+       <section className="container mx-auto">
+            <h2>about page</h2>
+       </section>
     )
 }
 
