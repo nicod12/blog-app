@@ -121,7 +121,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="relative px-12 lg:px-24 xl:px-24 2xl:px-24 p-8 ">
+    <nav className="relative px-12 lg:px-24  p-8 ">
       <div className="flex items-center justify-between text-slate-200">
         <section className="flex items-center gap-x-3 font-bold text-sm lg:text-sm xl:text-2xl 2xl:text-2xl">
           <Image
@@ -133,7 +133,7 @@ const Navbar = () => {
           />
           <h1 className="font-bold text-[15px] lg:text-[20px] xl:text-xl 2xl:text-2xl">Daisy Knight Dog Park</h1>
         </section>
-          <ul className="text-[15px] lg:text-[15px] xl:text-[16px] 2xl:text-lg lg:flex xl:flex 2xl:flex hidden gap-x-5 font-bold uppercase">
+          <ul className="text-[15px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] lg:flex xl:flex 2xl:flex hidden gap-x-5 font-bold uppercase">
             <li>
               <Link className={`py-1 hover:border-b-2 hover:shadow-sm border-slate-300 hover:transition hover:text-slate-300 hover:duration-200 hover:ease-in-out 
                 ${activeLink === "/" ? "py-1 border-b-2": "" }`} 
