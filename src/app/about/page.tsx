@@ -1,8 +1,8 @@
 
 export default function AboutPage() {
     return(
-       <section className="container mx-auto">
-            <h2>about page</h2>
+       <section className="flex flex-col justify-center items-center mt-16" >
+            <h2>About us</h2>
        </section>
     )
 }
