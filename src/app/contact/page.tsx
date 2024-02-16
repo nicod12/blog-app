@@ -1,6 +1,11 @@
+import FormComp from "@/components/FormComp";
+
 export default function ContactPage() {
     return(
-        <h1>ContactPage</h1>
+       <section className="mt-16 ">
+        <h2 className="text-center text-orange-400 text-[18px] lg:text-[20px] xl:text-[22px] 2xl:text-[25px] font-bold">Contact</h2>
+        <FormComp />
+       </section>
     )
 }
 
