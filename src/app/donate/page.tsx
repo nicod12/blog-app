@@ -16,7 +16,6 @@ export default function DonatePage() {
                 loading="lazy"
                 width={400} 
                 height={20}
-                quality={75}
             />
             <div className="mb-4 relative z-10">
                 <label htmlFor="nombre" className="block text-sm  text-black font-bold">
