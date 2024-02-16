@@ -14,8 +14,9 @@ export default function DonatePage() {
                 alt="bg"
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
-                width={400}
+                width={400} 
                 height={20}
+                quality={75}
             />
             <div className="mb-4 relative z-10">
                 <label htmlFor="nombre" className="block text-sm  text-black font-bold">
