@@ -16,7 +16,7 @@ export default function DonatePage() {
             Doloribus laborum delectus voluptate fuga, ipsum cupiditate fugiat consequuntur mollitia sit et? Quisquam nihil neque laudantium tempora distinctio explicabo voluptatibus, totam, doloremque expedita dicta voluptatum quasi nulla, natus qui ipsum?</p>
 
             <div className="mt-8 p-8">
-                <ul className="grid grid-cols-3 gap-8 lg:gap-10">
+                <ul className="grid grid-cols-1 gap-8 lg:gap-10">
                 <li>
                     <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
                         <div className="flex flex-col items-center">
