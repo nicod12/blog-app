@@ -17,21 +17,24 @@ export default function DonatePage() {
 
             <div className="mt-8 p-8">
                 <ul className="grid grid-cols-3 gap-8 lg:gap-10">
-                    <li>
-                        <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
-                            <SiMercadopago />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
-                            <FaCcPaypal />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
-                            <IoCardSharp />
-                        </Link>
-                    </li>
+                <li>
+                    <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
+                        <SiMercadopago />
+                        <span className="sr-only">Mercado Pago</span>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="https://www.paypal.com/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
+                        <FaCcPaypal />
+                        <span className="sr-only">PayPal</span>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="https://www.example.com/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
+                        <IoCardSharp />
+                        <span className="sr-only">Card</span>
+                    </Link>
+                </li>
                 </ul>
             </div>
         </section>
