@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
     return(
-       <section className="flex flex-col justify-center items-center mt-12">
+       <section className="flex flex-col justify-center items-center mt-20 ">
             <div className="flex flex-col justify-center items-center px-12">
                 <article className="px-2 my-4">
                     <h2 className="text-orange-400 text-center text-[25px] xl:text-[28px] 2xl:text-[30px]  ">- About Us</h2>
