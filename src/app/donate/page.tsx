@@ -13,7 +13,7 @@ export default function DonatePage() {
                 src="https://i.postimg.cc/kXwgCNGM/background.png"
                 alt="bg"
                 className="absolute inset-0 w-full h-full object-cover"
-                loading="lazy"
+                loading="eager"
                 width={400} 
                 height={20}
             />
