@@ -17,15 +17,21 @@ export default function DonatePage() {
 
             <div className="mt-8 p-8">
                 <ul className="grid grid-cols-3 gap-8 lg:gap-10">
-                    <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
-                        <li><SiMercadopago /></li>
-                    </Link>
-                    <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]" >
-                        <li><FaCcPaypal /></li>
-                    </Link>
-                    <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
-                        <li><IoCardSharp /></li>
-                    </Link> 
+                    <li>
+                        <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
+                            <SiMercadopago />
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
+                            <FaCcPaypal />
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
+                            <IoCardSharp />
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </section>
