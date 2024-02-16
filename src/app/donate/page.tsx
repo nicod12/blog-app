@@ -14,7 +14,7 @@ export default function DonatePage() {
                 alt="bg"
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="eager"
-                width={400} 
+                width={600} 
                 height={20}
             />
             <div className="mb-4 relative z-10">
