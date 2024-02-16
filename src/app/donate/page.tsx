@@ -19,20 +19,26 @@ export default function DonatePage() {
                 <ul className="grid grid-cols-3 gap-8 lg:gap-10">
                 <li>
                     <Link href="https://www.mercadopago.com.ar/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
-                        <SiMercadopago />
-                        <span className="sr-only">Mercado Pago</span>
+                        <div className="flex flex-col items-center">
+                            <SiMercadopago />
+                            <span className="text-[12px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]">Mercado Pago</span>
+                        </div>
                     </Link>
                 </li>
                 <li>
                     <Link href="https://www.paypal.com/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
-                        <FaCcPaypal />
-                        <span className="sr-only">PayPal</span>
+                        <div className="flex flex-col items-center">
+                            <FaCcPaypal />
+                            <span className="text-[12px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]">PayPal</span>
+                        </div>
                     </Link>
                 </li>
                 <li>
                     <Link href="https://www.example.com/" className="text-[45px] lg:text-[58px] xl:text-[58px] 2xl:text-[60px]">
-                        <IoCardSharp />
-                        <span className="sr-only">Card</span>
+                        <div className="flex flex-col items-center">
+                            <IoCardSharp />
+                            <span className="text-[12px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]">Credit Card</span>
+                        </div>
                     </Link>
                 </li>
                 </ul>
