@@ -1,65 +1,33 @@
 "use client"
+import Link from "next/link"
+import { SiMercadopago } from "react-icons/si";
+import { FaCcPaypal } from "react-icons/fa";
+import { IoCardSharp } from "react-icons/io5";
 
-import Image from "next/image"
 
 
 export default function DonatePage() {
     return(
         <section className="flex flex-col items-center mt-10">
-            <h2 className="text-orange-400 text-[22px]">Donations</h2>
-            <p className="py-4 px-8 text-center text-gray-300 text-[16px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum assumenda natus possimus?</p>
-        <form className="max-w-md mx-auto p-6 mt-6 bg-white shadow-md rounded-md relative">
-                <Image
-                src="https://i.postimg.cc/kXwgCNGM/background.png"
-                alt="bg"
-                className="absolute inset-0 w-full h-full object-cover"
-                loading="eager"
-                width={600} 
-                height={20}
-            />
-            <div className="mb-4 relative z-10">
-                <label htmlFor="nombre" className="block text-sm  text-black font-bold">
-                    Nombre:
-                </label>
-                <input
-                    type="text"
-                    id="nombre"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-md text-black"
-                    placeholder="Nombre"
-                />
-            </div>
-            <div className="mb-4 relative z-10">
-                <label htmlFor="email" className="block text-sm text-black font-bold">
-                    Correo:
-                </label>
-                <input
-                    type="email"
-                    id="email"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-md text-black"
-                    placeholder="Correo"
-                />
-            </div>
-            <div className="mb-4 relative z-10">
-                <label htmlFor="donate" className="block text-sm text-black font-bold">
-                    $:
-                </label>
-                <input
-                    type="number"
-                    id="donate"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-md text-black"
-                    placeholder="0"
-                />
-            </div>
+            <h2 className="text-orange-400 text-[22px] lg:text-[25px] xl:text-[26px] 2xl:text-[30px]">Donations</h2>
+            <p className="py-4 px-8 text-center text-gray-300 text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, incidunt inventore ullam voluptatibus laboriosam illum voluptates similique. Commodi repellat quasi error atque nobis, similique obcaecati cum temporibus, minima pariatur aspernatur?
+            Aliquid nisi minus, repellendus, mollitia doloribus ad modi est eveniet minima atque possimus impedit explicabo! Est assumenda quae rem eveniet dolorem quod reiciendis eius harum alias quam deleniti, atque officia.
+            Perferendis blanditiis totam nesciunt ducimus illum earum, molestiae sit ad quasi excepturi beatae nam quos error. Voluptas, molestias! Officiis officia eveniet non, corporis repellendus earum porro nulla assumenda ipsa nesciunt?
+            Doloribus laborum delectus voluptate fuga, ipsum cupiditate fugiat consequuntur mollitia sit et? Quisquam nihil neque laudantium tempora distinctio explicabo voluptatibus, totam, doloremque expedita dicta voluptatum quasi nulla, natus qui ipsum?</p>
 
-
-            <button
-                className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300 relative z-10"
-                aria-label="donate"
-                type="submit"
-            >
-                Donate
-            </button>
-      </form>
+            <div className="mt-16">
+                <ul className="grid grid-cols-3 gap-8">
+                    <Link href="https://www.mercadopago.com.ar/" className="text-[45px]">
+                        <li><SiMercadopago /></li>
+                    </Link>
+                    <Link href="https://www.mercadopago.com.ar/" className="text-[45px]" >
+                        <li><FaCcPaypal /></li>
+                    </Link>
+                    <Link href="https://www.mercadopago.com.ar/" className="text-[45px]">
+                        <li><IoCardSharp /></li>
+                    </Link> 
+                </ul>
+            </div>
         </section>
     )
 }
