@@ -53,7 +53,7 @@ const Navbar = () => {
          <button
           aria-label="Botón para cerrar menu"
           type="button" 
-          className="text-3xl"
+          className="text-[32px]"
           onClick={handleClick}
         >
             <IoClose />
@@ -129,9 +129,9 @@ const Navbar = () => {
             loading="lazy"
             src="https://i.postimg.cc/htyhZ9yd/lg.png" alt="logo" 
             width={50}
-            className="w-12 lg:w-14 xl:w-14 2xl:w-16"
+            className="w-10 lg:w-14 xl:w-14 2xl:w-16"
           />
-          <h1 className="font-bold text-[15px] lg:text-[20px] xl:text-xl 2xl:text-2xl">Daisy Knight Dog Park</h1>
+          <h1 className="font-bold text-[18px] lg:text-[20px] xl:text-xl 2xl:text-2xl">Daisy Knight Dog Park</h1>
         </section>
           <ul className="text-[15px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] lg:flex xl:flex 2xl:flex hidden gap-x-5 font-bold uppercase">
             <li>
@@ -174,11 +174,11 @@ const Navbar = () => {
           <button
             aria-label="Botón para abrir menu"
             type="button" 
-            className="lg:hidden xl:hidden 2xl:hidden text-3xl"
+            className="text-[32px] lg:hidden xl:hidden 2xl:hidden text-3xl"
             onClick={handleClick}
           >
             {
-              !open ? <FiAlignJustify /> : ""
+              !open ? <FiAlignJustify  /> : ""
             }
           </button>
       </div>  
