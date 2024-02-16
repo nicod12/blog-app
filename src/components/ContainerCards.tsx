@@ -5,7 +5,7 @@ import { Button } from "./Button"
 const ContainerCards = () => {
   return (
    <section className="lg:mt-48  xl:mt-48 2xl:mt-48 lg:grid lg:grid-cols-3 lg:items-center xl:grid xl:grid-cols-3 xl:items-center 2xl:grid 2xl:grid-cols-3 2xl:items-center 2xl:gap-8">
-     <article className="text-black mt-36 lg:mt-0 xl:mt-0 2xl:mt-0 w-[500px] lg:w-[300px] xl:w-[380px]">
+     <article className="text-black mt-36 lg:mt-0 xl:mt-0 2xl:mt-0 w-[300px]  xl:w-[380px] 2xl:w-[500px]">
         <div className="border border-gray-100 px-2 py-6 mx-6 shadow-md flex flex-col items-center relative rounded">
              <Image
                 height={20} 
@@ -20,7 +20,7 @@ const ContainerCards = () => {
         </div>
 
     </article>
-    <article className="text-black mt-36 lg:mt-0 xl:mt-0 2xl:mt-0 w-[500px] lg:w-[300px] xl:w-[380px]">
+    <article className="text-black mt-36 lg:mt-0 xl:mt-0 2xl:mt-0 w-[300px]  xl:w-[380px] 2xl:w-[500px]">
         <div className="border border-gray-100 px-2 py-6 mx-6 shadow-md flex flex-col items-center relative rounded">
              <Image
                 height={20}
@@ -35,7 +35,7 @@ const ContainerCards = () => {
         </div>
 
     </article>
-    <article className="text-black mt-44 lg:mt-0 xl:mt-0 2xl:mt-0 w-[500px] lg:w-[300px] xl:w-[380px]">
+    <article className="text-black mt-44 lg:mt-0 xl:mt-0 2xl:mt-0 w-[300px] xl:w-[380px] 2xl:w-[500px]">
         <div className="border border-gray-100 px-2 mx-6 py-6 shadow-md flex flex-col items-center relative rounded">
              <Image
                 height={20}
