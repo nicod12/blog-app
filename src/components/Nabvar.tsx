@@ -37,7 +37,7 @@ const Navbar = () => {
 
   const content = (
     <section 
-      className={`lg:hidden block  h-screen absolute top-0 w-full left-0 right-0 bg-[#181715] transform transition-all duration-500 ${open ? 'translate-x-0' : '-translate-x-full'}`}
+      className={`lg:hidden block  h-screen absolute top-0 w-full left-0 right-0 bg-[#181715] transform transition-all duration-500 ${open ? 'translate-x-0' : '-translate-x-full z-50'}`}
     >
        <div className="mx-auto text-center h-[calc(100vh-7rem)]">
        <div className="flex justify-between items-center px-10 mt-8">
