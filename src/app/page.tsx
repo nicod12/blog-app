@@ -12,7 +12,7 @@ export default function Home() {
   
   return (
     <main className="flex flex-col justify-center items-center">  
-      <section className=" flex  flex-col lg:flex-row xl:flex-row 2xl:flex-row lg:gap-5 xl:gap-5 2xl:gap-8 justify-center items-center mt-10 lg:mt-14 xl:mt-14 2xl:mt-14">
+      <section className=" flex  fixed z-40 flex-col lg:flex-row xl:flex-row 2xl:flex-row lg:gap-5 xl:gap-5 2xl:gap-8 justify-center items-center mt-10 lg:mt-14 xl:mt-14 2xl:mt-14">
        <div className="m-2 p-0 lg:p-12 xl:p-12 2xl:p-4">
         <h2 className="text-5xl lg:text-7xl xl:text-7xl 2xl:text-7xl shadow-sm">Daisy Knight</h2>
         <h3 className="text-5xl lg:text-7xl xl:text-7xl 2xl:text-7xl shadow-sm">Dog Park.</h3>
