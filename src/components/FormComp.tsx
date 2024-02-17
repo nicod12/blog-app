@@ -3,7 +3,7 @@
 
 const FormComp = () => {
   return (
-        <form className="w-[280px] lg:w-[320px] xl:w-[380px] 2xl:w-[420px] h-full mx-auto p-6 lg:p-8 xl:p-10 2xl:p-12 mt-6 bg-white shadow-md rounded-md relative z-10">
+        <form className="w-[280px] lg:w-[320px] xl:w-[380px] 2xl:w-[420px] h-full mx-auto p-6 lg:p-8 xl:p-10 2xl:p-12 mt-6 bg-white shadow-md rounded-md relative -z-10">
         <div className="mb-4 relative z-10">
         <label htmlFor="Name" className="block text-sm  text-black font-bold">
             Name:
